@@ -8,7 +8,7 @@ jobs:
     name: Create Release
     runs-on: ubuntu-latest
     outputs:
-      tag: ${{ steps.get-version.outputs.tag }}
+      tag: ${{ steps.get-version.outputs.tag }}_test2
       release_url: ${{ steps.release-url.outputs.release_url }}
       name: ${{ steps.get-name.outputs.name }}
     steps:
@@ -17,7 +17,7 @@ jobs:
       - name: Get version
         id: get-version
         run: |
-          echo "tag=v$(cat version.txt)_test1" >> $GITHUB_OUTPUT
+          echo "tag=v$(cat version.txt)" >> $GITHUB_OUTPUT
       - name: Get name
         id: get-name
         run: |
