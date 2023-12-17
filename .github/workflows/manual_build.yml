@@ -27,7 +27,7 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           tag_name: ${{ steps.get-version.outputs.tag }}
-          body_path: "Test build"
+          body: "Test build"
       - name: Output Release URL File
         id: release-url
         run: |
