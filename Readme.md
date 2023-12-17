@@ -218,14 +218,21 @@ pipenv run test
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/brookst>
+            <img src=https://avatars.githubusercontent.com/u/659579?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Tim Brooks/>
+            <br />
+            <sub style="font-size:14px"><b>Tim Brooks</b></sub>
+        </a>
+    </td>
+</tr>
+<tr>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/krisstakos>
             <img src=https://avatars.githubusercontent.com/u/5090779?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Kristian Kosev/>
             <br />
             <sub style="font-size:14px"><b>Kristian Kosev</b></sub>
         </a>
     </td>
-</tr>
-<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/mcraa>
             <img src=https://avatars.githubusercontent.com/u/6892971?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=mcraa/>
