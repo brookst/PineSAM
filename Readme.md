@@ -197,6 +197,13 @@ pipenv run test
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/brookst>
+            <img src=https://avatars.githubusercontent.com/u/659579?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Tim Brooks/>
+            <br />
+            <sub style="font-size:14px"><b>Tim Brooks</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/NeilHanlon>
             <img src=https://avatars.githubusercontent.com/u/680198?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Neil Hanlon/>
             <br />
@@ -215,13 +222,6 @@ pipenv run test
             <img src=https://avatars.githubusercontent.com/u/77225642?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Spagett/>
             <br />
             <sub style="font-size:14px"><b>Spagett</b></sub>
-        </a>
-    </td>
-    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/brookst>
-            <img src=https://avatars.githubusercontent.com/u/659579?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Tim Brooks/>
-            <br />
-            <sub style="font-size:14px"><b>Tim Brooks</b></sub>
         </a>
     </td>
 </tr>
