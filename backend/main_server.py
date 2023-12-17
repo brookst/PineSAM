@@ -1,6 +1,7 @@
 import asyncio
 import logging
 import os
+import pathlib
 import websockets
 import websockets.exceptions
 import json
@@ -18,7 +19,9 @@ logging.basicConfig(level=LOG_LEVEL, format='%(asctime)s.%(msecs)03d::%(levelnam
 pinecil = Pinecil()
 
 def read_app_version():
-    parent_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    parent_dir = pathlib.Path(os.path.abspath(__file__)).parent
+    if parent_dir != "_internal":
+        parent_dir = parent_dir.parent
     with open(os.path.join(parent_dir, 'version.txt')) as f:
         return f.read().strip()
 

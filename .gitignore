@@ -3,3 +3,7 @@ backend/__pycache__/**
 Pipfile.lock
 /site
 .cache/**
+/*build*/
+/dist/
+/*.spec
+/*.zip
