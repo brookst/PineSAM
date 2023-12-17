@@ -110,6 +110,9 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
+      - if: ${{ matrix.os == Windows }}
+        run: |
+          pip install winrt-Windows.Foundation.Collections
       - name: Install dependencies for ${{matrix.target}}
         run: |
           pip install pyinstaller websockets bleak requests
