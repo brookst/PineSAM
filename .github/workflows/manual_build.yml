@@ -6,7 +6,6 @@ on:
 jobs:
   build:
     name: Build Packages
-    needs: create-release
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
