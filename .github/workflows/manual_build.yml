@@ -8,7 +8,7 @@ jobs:
     name: Create Release
     runs-on: ubuntu-latest
     outputs:
-      tag: ${{ steps.get-version.outputs.tag }}_test8
+      tag: ${{ steps.get-version.outputs.tag }}_test9
       release_url: ${{ steps.release-url.outputs.release_url }}
       name: ${{ steps.get-name.outputs.name }}
     steps:
@@ -57,8 +57,7 @@ jobs:
           node-version: 18
       - name: Install dependencies for ${{matrix.target}}
         run: |
-          pip install pyinstaller websockets bleak requests
-          pip install --no-cache-dir --no-binary --force winrt-Windows.Foundation.Collections==2.0.0b1 winrt-runtime==2.0.0b1
+          pip install --no-cache-dir --no-binary winrt-runtime,winrt-Windows.Foundation.Collections,winrt-Windows.Devices.Bluetooth,winrt-Windows.Devices.Bluetooth.Advertisement,winrt-Windows.Devices.Bluetooth.GenericAttributeProfile,winrt-Windows.Devices.Enumeration,winrt-Windows.Foundation,winrt-Windows.Storage.Streams --force winrt-Windows.Foundation.Collections==2.0.0b1 winrt-runtime==2.0.0b1 pyinstaller websockets bleak requests
           pushd ui && npm install && popd
       - name: Build application for ${{matrix.target}}
         run: ${{ matrix.BUILD_CMD }}
