@@ -8,7 +8,7 @@ jobs:
     name: Create Release
     runs-on: ubuntu-latest
     outputs:
-      tag: ${{ steps.get-version.outputs.tag }}_test5
+      tag: ${{ steps.get-version.outputs.tag }}_test6
       release_url: ${{ steps.release-url.outputs.release_url }}
       name: ${{ steps.get-name.outputs.name }}
     steps:
