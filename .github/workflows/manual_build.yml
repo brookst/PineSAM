@@ -58,7 +58,7 @@ jobs:
       - name: Install dependencies for ${{matrix.target}}
         run: |
           pip install pyinstaller websockets bleak requests
-          pip install --force winrt-Windows.Foundation.Collections
+          pip install --force winrt-Windows.Foundation.Collections==2.0.0b1 winrt-runtime==2.0.0b1
           pushd ui && npm install && popd
       - name: Build application for ${{matrix.target}}
         run: ${{ matrix.BUILD_CMD }}
